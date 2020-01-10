@@ -2,7 +2,7 @@
   "kernel": {
     "name": "iMMENSITY",
     "version": "v10.0",
-    "link": "https://sourceforge.net/projects/unofficialbuilds/files/raphael/kernel/iMMENSITY-RAPHAEL-v10.0-Q-10-01-2020.zip/download",
+    "link": "https://downloads.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-v10.0-Q-10-01-2020.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Funofficialbuilds%2Ffiles%2Fraphael%2Fkernel%2FiMMENSITY-RAPHAEL-v10.0-Q-10-01-2020.zip%2Fdownload&ts=1578677888&use_mirror=jaist",
     "changelog_url": "https://raw.githubusercontent.com/UtsavisGreat/updater/master/changelog",
     "date": "2020-1-10",
     "sha1": "0d1a8b0d458d3baeb4064eb9fc7dc5e88b2cc30c"
