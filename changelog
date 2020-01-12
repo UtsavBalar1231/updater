@@ -1,20 +1,19 @@
+## GENERAL INFORMATION
+```
 Kernel: iMMENSITY
-Type: Release
 Device: Redmi K20 Pro
 Compiler: benzoClang 10.0.0
 Branch: sdx-staging
-HEAD: 01762e34da209460551b1c9a55fb7e0aaee5126
-Build Number: v10.0
+HEAD: 2936d0079925c1cf246ffbfb5bbb4f3c3540b20d
+Build Number: v11.0
+```
 
-Changelog:
-- Merged Linux kernel v4.14.163
-- Merged CAF tag LA.UM.8.11.r1-02200-NICOBAR.0
-- Updated WLAN, Audio and RmNet Performance drivers from CAF
-- Switched to Optimal Minimum CPU frequencies
-- Fixed pstore
-- improved FOD [ faster event data callbacks]
-- Treewide removed VLAs
-- Fixed numerous memory leaks in different drivers
-- Added KernelToast's On-Stack Allocation patches and Avoid Dynamically Allocating Memory patches for better Performance.
-- Used dedicated kmem_cache pool for memory allocation changes from arter97 kernel for better performance.
-- some general performance and security enhancements
+## Changelog:
+```
+- Disabled IPC Logging support and removed IPC Logging creation dependency from several Subsystems.
+- Added some patches from CAF tag LE.UM.4.1.1-02910-sa515m including scheduler improvements
+- Disabled Power Efficient Working Queues this was crucial as it drastically reduced power consuption.
+- Added some packet scheduler patches from mainline and Updated fq_codel discipline form mainline for better network performance
+- Re-Enabled WireGuard and also updated to 20200105 source Release.
+- Added Selinux Backports from kernel-common 4.14 improving security.
+```
