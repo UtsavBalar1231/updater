@@ -4,16 +4,20 @@ Kernel: iMMENSITY
 Device: Redmi K20 Pro
 Compiler: benzoClang 10.0.0
 Branch: sdx-staging
-HEAD: 2936d0079925c1cf246ffbfb5bbb4f3c3540b20d
-Build Number: v11.0
+HEAD: f49cd4277e45c38897e3db39024f6ad44e2444cc
+Build Number: v12.0
 ```
 
 ## Changelog:
 ```
-- Disabled IPC Logging support and removed IPC Logging creation dependency from several Subsystems.
-- Added some patches from CAF tag LE.UM.4.1.1-02910-sa515m including scheduler improvements
-- Disabled Power Efficient Working Queues this was crucial as it drastically reduced power consuption.
-- Added some packet scheduler patches from mainline and Updated fq_codel discipline form mainline for better network performance
-- Re-Enabled WireGuard and also updated to 20200105 source Release.
-- Added Selinux Backports from kernel-common 4.14 improving security.
+- Merged Linux v4.14.165.
+- Merge CAF tags 'LA.UM.8.9.r1-07400-SM6xx.0' & 'LA.UM.8.1.r1-13500-sm8150.0'.
+- added some patches from QCS404 kernel Targeting fixes for kernel power driver, scheduler & control groups.
+- Merged f2fs-stable release of may, 2019  that didn't got merged into CAF's msmnile kernel.
+- disabled goodix testing tools support.
+- EXPERIMENTAL: removed ESD checking from touch screen driver.
+- EXPERIMENTAL: created a high priority working queue for FOD & boost cpufreq to max for FOD events.
+- more Memory allocations on dedicates kmem_cache pool.
+- enabled XPAD joystick support.
+- Fixed data metering on MeMeUi [ use at your own risk ].
 ```
