@@ -2,22 +2,15 @@
 ```
 Kernel: iMMENSITY
 Device: Redmi K20 Pro
-Compiler: benzoClang 10.0.0
-Branch: sdx-staging
-HEAD: f49cd4277e45c38897e3db39024f6ad44e2444cc
-Build Number: v12.0
+Compiler: BareMetal GCC-9.2.0
+Branch: master2
+HEAD: c5161a34f68da46ced1352ea15d30eee9eaf1415
+Build Number: v13.0
 ```
 
 ## Changelog:
 ```
-- Merged Linux v4.14.165.
-- Merge CAF tags 'LA.UM.8.9.r1-07400-SM6xx.0' & 'LA.UM.8.1.r1-13500-sm8150.0'.
-- added some patches from QCS404 kernel Targeting fixes for kernel power driver, scheduler & control groups.
-- Merged f2fs-stable release of may, 2019  that didn't got merged into CAF's msmnile kernel.
-- disabled goodix testing tools support.
-- EXPERIMENTAL: removed ESD checking from touch screen driver.
-- EXPERIMENTAL: created a high priority working queue for FOD & boost cpufreq to max for FOD events.
-- more Memory allocations on dedicates kmem_cache pool.
-- enabled XPAD joystick support.
-- Fixed data metering on MeMeUi [ use at your own risk ].
+- Merged Linux v4.14.167.
+- [Fixed FastCharging issue after power supply changes from CAF tag 'LA.UM.8.9.r1-07400-SM6xx.0](https://github.com/UtsavBalar1231/kernel_xiaomi_raphael/commit/9fb933a86671d009e2f4245ab5576b9cea885e3d)'
+- [Improved BPF performance](https://github.com/UtsavBalar1231/kernel_xiaomi_raphael/commit/d5d81e6984567131839cc935ec4c14b04d6d107a).
 ```
