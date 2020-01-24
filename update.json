@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "iMMENSITY",
-    "version": "v12.0",
-    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-V12.0-Q-17-01-2020.zip",
+    "version": "v13.0",
+    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-V13.0-Q-24-01-2020.zip",
     "changelog_url": "https://raw.githubusercontent.com/UtsavisGreat/updater/master/changelog",
-    "date": "2020-1-17",
-    "sha1": "3464bf46d100d3a70f6c00b0e2f785d358a98139"
+    "date": "2020-1-24",
+    "sha1": "70e7efc0dc435b2193b58889dce9990baa4e91"
   },
   "support": {
     "link": "https://t.me/CuntsSpace1"
