@@ -2,15 +2,20 @@
 ```
 Kernel: iMMENSITY
 Device: Redmi K20 Pro
-Compiler: BareMetal GCC-9.2.0
+Compiler: ProtonClang-11.0
 Branch: master2
 HEAD: c5161a34f68da46ced1352ea15d30eee9eaf1415
-Build Number: v13.0
+Build Number: v14.0
 ```
 
 ## Changelog:
 ```
-- Merged Linux v4.14.167.
-- [Fixed FastCharging issue after power supply changes from CAF tag 'LA.UM.8.9.r1-07400-SM6xx.0](https://github.com/UtsavBalar1231/kernel_xiaomi_raphael/commit/9fb933a86671d009e2f4245ab5576b9cea885e3d)'
-- [Improved BPF performance](https://github.com/UtsavBalar1231/kernel_xiaomi_raphael/commit/d5d81e6984567131839cc935ec4c14b04d6d107a).
+- Merged Linux v4.14.168.
+- Merged CAF tags LE.UM.3.3.2-06100-SDX55, LA.UM.8.9.r1-07600-SM6xx.0.
+- Updated qcacld to Release 5.2.03.18H.
+- Updated Audio & RmNet performace drivers from CAF tag LA.UM.8.9.r1-07600-SM6xx.0.
+- Added Kernel Security Improvements and fixes from kernel-common.
+- Switched back to Clang-11.0 cross compiler.
+- Enabled HID generic support.
+- Other Miscelleneous Performance and Security Improvements and Fixes.
 ```
