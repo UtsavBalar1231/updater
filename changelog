@@ -5,20 +5,18 @@ Device: Redmi K20 Pro
 Compiler: benzoClang-10.0
 Branch: master2
 HEAD: d8924ae24f5565fb9b85d0849b11b4fd0200eda0
-Build Number: v15.0
+Build Number: v16.0
 ```
 
 ## Changelog:
 ```
-- Merged Linux v4.14.169.
-- Merged CAF tag LE.UM.3.3.2-06200-SDX55.
-- added support for incremental FileSystem.
-- more memoryl allocation improvements.
-- hardcoded display framerate & clockrate.
-- applied xiaomi's wakeup reason changes and enabled bootloader information driver.
-- applied motorola's usb mtp & fs improvements and fixes.
-- applied motorola's camera buffer fixes for qcom devices.
-- applied Motorola's sdcardfs improvements and fixes.
-- added a slight delay between doze mode and normal mode to avoid unwanted buffer.
-- enabled eBPF JIT and improved BPF performance.
+- Merged Linux v4.14.170.
+- Merged CAF tag LE.UM.3.3.2-06400-SDX55.
+- added improvements and fixes for incremental FileSystem.
+- added DC dimming support in Mi9FOD release
+- updated usbpd driver from the k30 kernel source.
+- Fixed crash with USB mtp on Mi9FOD release.
+- applied xiaomi's wlan hacks to wlan driver.
+- fixed fingerprint gpio handling.
+- allowed unprivileged eBPF access. [fixes network indicator]
 ```
