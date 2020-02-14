@@ -4,19 +4,16 @@ Kernel: iMMENSITY
 Device: Redmi K20 Pro
 Compiler: benzoClang-10.0
 Branch: master2
-HEAD: 3286aff1be7253012f8f399924cb10aefadafead
-Build Number: v16.0
+HEAD: d0b4f2673685e643bd3e6e1d78f7b257e75a085e
+Build Number: v17.0
 ```
 
 ## Changelog:
 ```
-- Merged Linux v4.14.170.
-- Merged CAF tag LE.UM.3.3.2-06400-SDX55.
-- added improvements and fixes for incremental FileSystem.
-- added DC dimming support in Mi9FOD release
-- updated usbpd driver from the k30 kernel source.
-- Fixed crash with USB mtp on Mi9FOD release.
-- applied xiaomi's wlan hacks to wlan driver.
-- fixed fingerprint gpio handling.
-- allowed unprivileged eBPF access. [fixes network indicator]
+- Merged CAF tags LA.UM.8.1.r1-14300-sm8150.0 and LA.UM.8.9.r1-08100-SM6xx.0.
+- Updated Wlan, audio, rmNet performace drivers to the latest CAF release.
+- Fixed excessive Power consuption after v16.0.
+- Switched to ZSTD compression algorithm for ZRAM.
+- Fixed USB mass storage devices support.
+- Misc kernel performance and security improvements
 ```
