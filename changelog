@@ -4,16 +4,18 @@ Kernel: iMMENSITY
 Device: Redmi K20 Pro
 Compiler: benzoClang-10.0
 Branch: master2
-HEAD: d0b4f2673685e643bd3e6e1d78f7b257e75a085e
-Build Number: v17.0
+HEAD: 3a2b182b7ea7d86addc78d0f3adef59c84cf921f
+Build Number: v18.0
 ```
 
 ## Changelog:
 ```
-- Merged CAF tags LA.UM.8.1.r1-14300-sm8150.0 and LA.UM.8.9.r1-08100-SM6xx.0.
+- Merged Linux v4.14.171.
+- Merged CAF tag LA.UM.8.11.r1-02600-NICOBAR.0.
 - Updated Wlan, audio, rmNet performace drivers to the latest CAF release.
-- Fixed excessive Power consuption after v16.0.
-- Switched to ZSTD compression algorithm for ZRAM.
-- Fixed USB mass storage devices support.
-- Misc kernel performance and security improvements
+- Fixed QuickCharging issues after v17.0.
+- Updated ION driver from 865 kernel.
+- Added some optimizations from 4.19 CAF kernel source.
+- Updated Simple LMK by kernetoast.
+- Enabled Netlink & Netfilter Logging.
 ```
