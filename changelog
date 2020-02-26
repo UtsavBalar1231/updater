@@ -4,18 +4,18 @@ Kernel: iMMENSITY
 Device: Redmi K20 Pro
 Compiler: benzoClang-10.0
 Branch: master2
-HEAD: 3a2b182b7ea7d86addc78d0f3adef59c84cf921f
-Build Number: v18.0
+HEAD: 547daeeae189818857a9c2af0269f24ab11e740d
+Build Number: v19.0
 ```
 
 ## Changelog:
 ```
-- Merged Linux v4.14.171.
-- Merged CAF tag LA.UM.8.11.r1-02600-NICOBAR.0.
-- Updated Wlan, audio, rmNet performace drivers to the latest CAF release.
-- Fixed QuickCharging issues after v17.0.
-- Updated ION driver from 865 kernel.
-- Added some optimizations from 4.19 CAF kernel source.
-- Updated Simple LMK by kernetoast.
-- Enabled Netlink & Netfilter Logging.
+- updated to CAF tag LE.UM.3.3.2-06600-SDX55.
+- Fixed excessive power consuption issues after v18.0.
+- Added Support for Steam Valve controller.
+- Added initial support for MIUI Beta / Stable ROMs.
+- Improved HBM & dimming handling in Mi9FOD release.
+- Slightly improved BootTime.
+- Added some optimizations and fixes from google pixel4's R kernel source.
+- Disabled Simple LMK and re-enabled PSI monitor.
 ```
