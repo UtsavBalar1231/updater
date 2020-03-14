@@ -5,20 +5,27 @@ Device: Redmi K20 Pro
 Compiler: benzoClang-11.0
 Branch: master
 HEAD: 6632077b1afeb5fef395b854b8518da22ce956cc
-Build Number: v20.0
+Build Number: v21.0
 ```
 
 ## Changelog:
 ```
-- Completely Rebased Kernel over CAF tag LE.UM.3.3.2-06600-SDX55 and Updated to CAF tag LA.UM.8.9.r1-08300-SM6xx.0
-- Kernel is Upstreamed to Latest Linux Term Stable Release v4.14.172 with android kernel_common merged and with the latest ASB-2020-03-05-4.14.
-- Kernel now Supports builing Source Built DTBO image.
-- Added UFS fixes from Pixel4 R kernel source and fixed booting issues with v19.0.
-- Improved In-kernel WiFi configuration.
-- Improved Kernel Stability and performance.
-- Reduced Kernel size to ~10.5mb.
-- Switched to benzoClang-11.0.
-- Added Support for Nintendo Switch Controller.
-- Improved MIUI beta Support.
-- Added Support for USB Attached SCSI devices.
+- Merged Linux Term Stable v4.14.173
+- Merged CAF tag LA.UM.8.1.r1-14500-sm8150.0
+- Merge CAF tag LA.UM.8.9.r1-08400-SM6xx.0
+- Production Friendly Kernel (Disabled DEBUG_KERNEL and DEBUG_FS)
+- Reduced display panel delay close to fod delay.
+- Reverted a broken sys_sync patch.
+- Added Support to stop deferred probes after the init [ Currently in pinctrl , IOMMU and PM domain}.
+- Disabled Zram and Switched to zswap + vnswap by Samsung
+- Rea dded WireGuard support
+- Removed CAF's hi-speed boost and load prediction features for less overhead
+- Hardcoded schedutil rate-limits from pixel4
+- More memory allocation improvements
+- Added Custom DTBO Image inside.
+
+# For Miui-beta
+- applied regulator changes from xiaomi-beta
+- applied ufs clear change from xiaomi-beta
+- made FOD more inline with xiaomi-beta 
 ```
