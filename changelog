@@ -4,28 +4,21 @@ Kernel: iMMENSITY
 Device: Redmi K20 Pro
 Compiler: benzoClang-11.0
 Branch: master
-HEAD: e9073ff51687668a91479ea0378f7897b3dbbc95
-Build Number: v21.0
+HEAD: e10a89221a8172d821dbad8cae41c5a5bb259dd2
+Build Number: v22.0
 ```
 
 ## Changelog:
 ```
-- Merged Linux Term Stable v4.14.173
-- Merged CAF tag LA.UM.8.1.r1-14500-sm8150.0
-- Merge CAF tag LA.UM.8.9.r1-08400-SM6xx.0
-- Production Friendly Kernel (Disabled DEBUG_KERNEL and DEBUG_FS)
-- Reduced display panel delay close to fod delay.
-- Reverted a broken sys_sync patch.
-- Added Support to stop deferred probes after the init [ Currently in pinctrl , IOMMU and PM domain}.
-- Disabled Zram and Switched to zswap + vnswap by Samsung
-- Rea dded WireGuard support
-- Removed CAF's hi-speed boost and load prediction features for less overhead
-- Hardcoded schedutil rate-limits from pixel4
-- More memory allocation improvements
-- Added Custom DTBO Image inside.
+- Fixed a Critical Kernel Panic while watching Media.
+- Fixed Camera Popup on Boot with enforcing .
+- Reverted Back to using zRAM with size 3GB.
+- Fixed booting issues for some users on MIUI stable.
+- Fixed MIUI speed indicator on MIUI stable.
+- Fixed some issues with custom ROMs using pixel powerhal.
+- Optimised ARM64 specific routines and page allocator.
+- Added Support for ARM Top-byte Ignore  and MTE for Android R.
 
-# For Miui-beta
-- applied regulator changes from xiaomi-beta
-- applied ufs clear change from xiaomi-beta
-- made FOD more inline with xiaomi-beta 
+-- For Miui-beta
+- applied touchfeature changes from Mi10.
 ```
