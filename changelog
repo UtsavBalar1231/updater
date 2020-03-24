@@ -4,21 +4,30 @@ Kernel: iMMENSITY
 Device: Redmi K20 Pro
 Compiler: benzoClang-11.0
 Branch: master
-HEAD: e10a89221a8172d821dbad8cae41c5a5bb259dd2
-Build Number: v22.0
+HEAD: 2eb7f944a51d5c377f69b738f1caff9370e399da
+Build Number: v24.0
 ```
 
 ## Changelog:
 ```
-- Fixed a Critical Kernel Panic while watching Media.
-- Fixed Camera Popup on Boot with enforcing .
-- Reverted Back to using zRAM with size 3GB.
-- Fixed booting issues for some users on MIUI stable.
-- Fixed MIUI speed indicator on MIUI stable.
-- Fixed some issues with custom ROMs using pixel powerhal.
-- Optimised ARM64 specific routines and page allocator.
-- Added Support for ARM Top-byte Ignore  and MTE for Android R.
+- Updated Wlan driver to Release 5.2.03.22Q.
+- Updated Techpack Drivers Audio-kernel & Data-kernel from LA.UM.8.11.r1-02900-NICOBAR.0.
+- Merged Latest Linux Term Stable Release 4.14.174.
+- Disabled DEBUG_FS and DEBUG_KERNEL.
+- Disabled More Logging and Debugging.
+- Explicitely memset the bpf attributes.
+- Applied Relative JUMP LABEL changes.
+- Applied Xiaomi changes on wlan driver.
+- Reset back to CAF lmk driver.
+- Merged CAF tag 'LE.UM.3.3.2-07100-SDX55'.
+- Added ION changes from CAF sm8250 kernel source.
+- Fixed Slab allocator issues 	to fix some memory leaks.
+- Lower big and prime cluster Max CPU frequency.
+- Added Support for Xiaomi Mi9 [Cepheus].
 
 -- For Miui-beta
-- applied touchfeature changes from Mi10.
+- Same Changes from AOSP.
+- Applied Xiaomi's task delaying changes.
+- Fixed HBM issue with FOD.
+- Simplified HBM_BACKLIGHT_RESEND to avoid any race condition
 ```
