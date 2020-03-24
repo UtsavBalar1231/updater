@@ -1,10 +1,10 @@
 {
   "kernel": {
     "name": "iMMENSITY",
-    "version": "v22.0",
-    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-V22.0-Q-17-03-2020.zip",
+    "version": "v24.0",
+    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-V24.0-Q-24-03-2020.zip",
     "changelog_url": "https://raw.githubusercontent.com/UtsavBalar1231/updater/master/changelog",
-    "date": "2020-03-17",
+    "date": "2020-03-24",
     "sha1": "8fba0d92aaae341801623af28e7454dd61d9e7a4"
   },
   "support": {
