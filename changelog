@@ -4,27 +4,17 @@ Kernel: iMMENSITY
 Device: Redmi K20 Pro
 Compiler: proton_clang-11.0
 Branch: master
-HEAD: 17ace1bafb9bfe822b3d2bc5bd95bb93d7ca9881
-Build Number: v25.0
+HEAD: cd135d331891454f19bcccb09d8d2ed8ff6b33dc
+Codename: Kinky Furry
 ```
 
 ## Changelog:
 ```
-- Full Link-Time-Optimisation Build Compiled using latest
-ProtonClang-11.0.0 , LLD Linker With RELR relocations
-and Binutils v2.34.
-- Enabled Clang Shadow Call Stack Support to enhance
-Kernel Security.
-- Limited IRQs Affinity Mask to the first CPU to avoid any
-incorrect assumption of where an IRQ is affined.
-- ReEnabled qcom decode-batching feature to fix glitchy
-artifacts while streaming on YouTube.
-- Upstreamed F2FS to the latest tag 5.6-rc1-4.14 of 
-pub/scm/linux/kernel/git/jaegeuk/f2fs-stable With Arter97’s
-rapidGC Optimizations and working FBE support.
-- Added Optimized F2FS Hot & Cold List for better Performance.
-- Re-Worked Anykernel3 script for faster and reliable flashing experience.
-
--- For Miui-beta
-- Dropped.
+- Merged CAF tags LE.UM.4.1.2.r1-03500-qcs405.0, LE.UM.3.3.2-07400-SDX55 and LE.UM.4.2.2-00600-SDX55.
+- Kernel Upstreamed to LTS v4.14.175.
+- Optimized Code Quality of Tuuchscreen, Fingerprint, Popup motor and Speaker Codec drivers.
+- Enabled LLVM's Polyhedral loop optimizations.
+- Enabled Workqueues in power-efficient mode.
+- Fixed Camera and media issues.
+- Imporved per-effect haptics configuration.
 ```
