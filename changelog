@@ -4,17 +4,17 @@ Kernel: iMMENSITY
 Device: Redmi K20 Pro
 Compiler: proton_clang-11.0
 Branch: master
-HEAD: cd135d331891454f19bcccb09d8d2ed8ff6b33dc
-Codename: Kinky Furry
+HEAD: 6e194ed3a54839424a98494026a3ecc8fe4e0540
+Codename: Stay Home
 ```
 
 ## Changelog:
 ```
-- Merged CAF tags LE.UM.4.1.2.r1-03500-qcs405.0, LE.UM.3.3.2-07400-SDX55 and LE.UM.4.2.2-00600-SDX55.
-- Kernel Upstreamed to LTS v4.14.175.
-- Optimized Code Quality of Tuuchscreen, Fingerprint, Popup motor and Speaker Codec drivers.
-- Enabled LLVM's Polyhedral loop optimizations.
-- Enabled Workqueues in power-efficient mode.
-- Fixed Camera and media issues.
-- Imporved per-effect haptics configuration.
+- Switched back to qcom haptics configuration.
+- Fixed a critical memory allocation bug.
+- Converted qcom audio subsystem to use poweefficient working queues.
+- Improved GPU performance and allow Big and Prime CPU cores to use max frequency.
+- Wireguard VPN updated to v1.0.20200401.
+- Backported cryptographic ciphers and algorithms from kernel-5.4.
+- Reduced power consuption in idle state and improved deep sleep.
 ```
