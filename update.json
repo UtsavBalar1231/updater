@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "iMMENSITY",
-    "version": "Kinky-Furry",
-    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-KINKYFURRY-LOS-04-03-2020.zip",
+    "version": "StayHome",
+    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-STAYHOME-LOS-12-03-2020.zip",
     "changelog_url": "https://raw.githubusercontent.com/UtsavBalar1231/updater/master/changelog",
-    "date": "2020-03-04",
-    "sha1": "02d7ebe3cdf6cdf29b2838d5a49a32ecee62180d"
+    "date": "2020-03-12",
+    "sha1": "ead7ee43b8f80d09b6bffaec6105141403cd9191"
   },
   "support": {
     "link": "https://t.me/CuntsSpace"
