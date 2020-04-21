@@ -2,19 +2,25 @@
 ```
 Kernel: iMMENSITY
 Device: Redmi K20 Pro
-Compiler: proton_clang-11.0
+Compiler: AOSP Clang-10.0.6
 Branch: master
-HEAD: 6e194ed3a54839424a98494026a3ecc8fe4e0540
-Codename: Stay Home
+HEAD: f3ed4a6bddeb25465d0804ef264fc6a9e497f88c
+Codename: InCase
 ```
 
 ## Changelog:
 ```
-- Switched back to qcom haptics configuration.
-- Fixed a critical memory allocation bug.
-- Converted qcom audio subsystem to use poweefficient working queues.
-- Improved GPU performance and allow Big and Prime CPU cores to use max frequency.
-- Wireguard VPN updated to v1.0.20200401.
-- Backported cryptographic ciphers and algorithms from kernel-5.4.
-- Reduced power consuption in idle state and improved deep sleep.
+• Merged CAF tags LA.UM.8.1.r1-14700-sm8150.0 and LE.UM.3.3.2-07700-SDX55.
+• Qcacld/Cmn   :  LA.UM.8.9.r1-08700-SM6xx.0.
+• Audio-Kernel :  LA.UM.8.9.r1-08700-SM6xx.0.
+• Data-Kernel  :  LA.UM.8.9.r1-08700-SM6xx.0.
+• F2FS upstreamed to tag v5.7-rc1.
+• Fixed double tap to wake feature for all products.
+• Optimized touchscreen driver for lower latency and reduced interrupts also improved display blank and unblack speed.
+• Fixed couple of memory leaks from touchscreen driver.
+• Disabled Userspace LMKd.
+• Reduced GPU idle timeout to 64ms.
+• Slightly improved booting time by using asyncronous probing.
+• Fixed some camera bugs introduced during initial clean import.
+• Added Timeout to power supply wakelocks.
 ```
