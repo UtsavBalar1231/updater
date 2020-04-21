@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "iMMENSITY",
-    "version": "StayHome",
-    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-STAYHOME-LOS-12-03-2020.zip",
+    "version": "InCase",
+    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-InCase-LOS-21-04-2020.zip",
     "changelog_url": "https://raw.githubusercontent.com/UtsavBalar1231/updater/master/changelog",
-    "date": "2020-03-12",
-    "sha1": "ead7ee43b8f80d09b6bffaec6105141403cd9191"
+    "date": "2020-04-21",
+    "sha1": "d383d3cba152e24ed0457c0d727789b1ebc3fc4a"
   },
   "support": {
     "link": "https://t.me/CuntsSpace"
