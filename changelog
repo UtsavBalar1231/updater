@@ -2,25 +2,24 @@
 ```
 Kernel: iMMENSITY
 Device: Redmi K20 Pro
-Compiler: AOSP Clang-10.0.6
-Branch: master
-HEAD: f3ed4a6bddeb25465d0804ef264fc6a9e497f88c
-Codename: InCase
+Compiler: Proton-clang 11.0.0
+Branch: android-4.14-stable
+HEAD: 6b44f098f67051d8912cc1779b1c496f4a53dc76
+Codename: PixelButter
 ```
 
 ## Changelog:
 ```
-• Merged CAF tags LA.UM.8.1.r1-14700-sm8150.0 and LE.UM.3.3.2-07700-SDX55.
-• Qcacld/Cmn   :  LA.UM.8.9.r1-08700-SM6xx.0.
-• Audio-Kernel :  LA.UM.8.9.r1-08700-SM6xx.0.
-• Data-Kernel  :  LA.UM.8.9.r1-08700-SM6xx.0.
-• F2FS upstreamed to tag v5.7-rc1.
-• Fixed double tap to wake feature for all products.
-• Optimized touchscreen driver for lower latency and reduced interrupts also improved display blank and unblack speed.
-• Fixed couple of memory leaks from touchscreen driver.
-• Disabled Userspace LMKd.
-• Reduced GPU idle timeout to 64ms.
-• Slightly improved booting time by using asyncronous probing.
-• Fixed some camera bugs introduced during initial clean import.
-• Added Timeout to power supply wakelocks.
+• Merged CAF tags LA.UM.8.1.r1-14900-sm8150.0 and LE.UM.3.3.2-07900-SDX55.
+• Qcacld/Cmn   :  LA.UM.8.1.r1-14900-sm8150.0.
+• Audio-Kernel :  LA.UM.8.1.r1-14900-sm8150.0.
+• Data-Kernel  :  LA.UM.8.1.r1-14900-sm8150.0.
+• F2FS upstreamed to jaeguek/f2fs-stable.
+• Disallow taking prime core offline.
+• Merged LTS-4.14.180 android-4.14-stable.
+• Switched to pixel4 PELT with 16ms half-life.
+• Optimized f2fs performance.
+• Applied pixel4 thermal changes.
+• Updated NXP tfa98xx driver from CAF v6.7.1.
+• Added powerkey cpuboost with reworked scheduling setup.
 ```
