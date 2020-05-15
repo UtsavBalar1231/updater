@@ -4,21 +4,22 @@ Kernel: iMMENSITY
 Device: Redmi K20 Pro
 Compiler: Proton-clang 11.0.0
 Branch: android-4.14-stable
-HEAD: 6b44f098f67051d8912cc1779b1c496f4a53dc76
+HEAD: a45ec9bb7df3e803a51a3ed5622654f3d12be538
 Codename: PixelButter
 ```
 
 ## Changelog:
 ```
-• Merged CAF tags LA.UM.8.1.r1-14900-sm8150.0 and LE.UM.3.3.2-07900-SDX55.
-• Qcacld/Cmn   :  LA.UM.8.1.r1-14900-sm8150.0.
-• Audio-Kernel :  LA.UM.8.1.r1-14900-sm8150.0.
-• Data-Kernel  :  LA.UM.8.1.r1-14900-sm8150.0.
+• Merged CAF tags LA.UM.8.1.r1-14900-sm8150.0, LA.UM.8.9.r1-09200-SM6xx.0 and LE.UM.4.1.2.r1-04600-qcs405.0.
+• Qcacld/Cmn   :  LA.UM.8.9.r1-09200-SM6xx.0.
+• Audio-Kernel :  LA.UM.8.9.r1-09200-SM6xx.0.
+• Data-Kernel  :  LA.UM.8.9.r1-09200-SM6xx.0.
 • F2FS upstreamed to jaeguek/f2fs-stable.
 • Disallow taking prime core offline.
 • Merged LTS-4.14.180 android-4.14-stable.
 • Switched to pixel4 PELT with 16ms half-life.
 • Optimized f2fs performance.
+• Optimized GPU performance.
 • Applied pixel4 thermal changes.
 • Updated NXP tfa98xx driver from CAF v6.7.1.
 • Added powerkey cpuboost with reworked scheduling setup.
