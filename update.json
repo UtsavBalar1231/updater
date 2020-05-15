@@ -1,11 +1,11 @@
 {
   "kernel": {
-    "name": "iMMENSITY",
-    "version": "InCase",
-    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-RAPHAEL-InCase-LOS-21-04-2020.zip",
+    "name": "iMMENSITY+",
+    "version": "PixelButter",
+    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY%2BRAPHAEL-LOSFOD-15-05-2020.zip",
     "changelog_url": "https://raw.githubusercontent.com/UtsavBalar1231/updater/master/changelog",
-    "date": "2020-04-21",
-    "sha1": "d383d3cba152e24ed0457c0d727789b1ebc3fc4a"
+    "date": "2020-05-15",
+    "sha1": "803e5c53255d88ba14a077578437a4de61b3fd6c"
   },
   "support": {
     "link": "https://t.me/CuntsSpace"
