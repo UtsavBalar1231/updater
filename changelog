@@ -4,19 +4,17 @@ Kernel: iMMENSITY+
 Device: Redmi K20 Pro
 Compiler: Proton-clang 11.0.0
 Branch: android-4.14-stable
-HEAD: ed0cf56d04204669889d53221adea4036715b566
-Codename: Project 404
+HEAD: 54f052fb2c6707f76747ee7f51298fb3ee09638f
+Codename: SpaceX
 ```
 
 ## Changelog:
 ```
-• Updated nxp Tfa98xx speaker codec driver to v6.7.3.
-• Updated touchscreen firmware from MIUI12 20.5.18
-• Enabled cpuidle IPI prediction
-• Optimized and Tuned PELT for better performance. 
-• Optimized thermals for reduced throttling.
-• Optimized Storage performance
-• Production Kernel without Debugging and tracing support
-• Merged LTS v4.14.181
-• Upstreamed F2fs to May 19, 2020.
+• Added support for new LineageOS FOD.
+• Optimized locking operations.
+• Optimized i2c operations.
+• implemented disable input on lpm
+• Merged LTS v4.14.182
+• Upstreamed F2fs to May 30, 2020.
+• Silenced most of the obnoxious driver loggings and optimized kernel performance.
 ```
