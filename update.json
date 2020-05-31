@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "iMMENSITY+",
-    "version": "Project 404",
-    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY%2BRAPHAEL-LOSFOD-25.05.2020.zip",
+    "version": "SpaceX",
+    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY%2BRAPHAEL-LOSFOD-31.05.2020.zip",
     "changelog_url": "https://raw.githubusercontent.com/UtsavBalar1231/updater/master/changelog",
-    "date": "2020-05-25",
-    "sha1": "70f4cf737cbcb380cb602a3a54cb7fd040a7af2f"
+    "date": "2020-05-31",
+    "sha1": "89db8d94cba6aad7c5dd599dab713a35f6ce0ce9"
   },
   "support": {
     "link": "https://t.me/CuntsSpace"
