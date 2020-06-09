@@ -4,17 +4,19 @@ Kernel: iMMENSITY+
 Device: Redmi K20 Pro
 Compiler: Proton-clang 11.0.0
 Branch: android-4.14-stable
-HEAD: 54f052fb2c6707f76747ee7f51298fb3ee09638f
-Codename: SpaceX
+HEAD: 89d7df8d1aa4191d7b1767557534164236ae61f1
+Codename: HELLTAKER
 ```
 
 ## Changelog:
 ```
-• Added support for new LineageOS FOD.
-• Optimized locking operations.
-• Optimized i2c operations.
-• implemented disable input on lpm
-• Merged LTS v4.14.182
-• Upstreamed F2fs to May 30, 2020.
-• Silenced most of the obnoxious driver loggings and optimized kernel performance.
+• Reworked in-Kernel FOD support
+• Optimized CPUidle for reduced power consuption.
+• Optimized Display interrupt latency
+• Optimized FOD under AoD
+• Updated touchscreen configuration firmware from MIUI12 20.5.14
+• Fixed bad idle drain due to s2idle
+• Merged LTS v4.14.183
+• Merged CAF tags LE.UM.3.3.2-08200-SDX55 and LA.UM.8.1.r1-15100-sm8150
+• Upstreamed F2fs to Jun 05, 2020
 ```
