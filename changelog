@@ -1,22 +1,21 @@
 ## GENERAL INFORMATION
 ```
-Kernel: iMMENSITY+
+Kernel: iMMENSITY AUTO
 Device: Redmi K20 Pro
 Compiler: Proton-clang 11.0.0
-Branch: android-4.14-stable
-HEAD: 89d7df8d1aa4191d7b1767557534164236ae61f1
-Codename: HELLTAKER
+Branch: auto-kernel
+HEAD: 15bc6e4750d705d1c201c562964877a4a55a0701
+Codename: AUTO
 ```
 
 ## Changelog:
 ```
-• Reworked in-Kernel FOD support
-• Optimized CPUidle for reduced power consuption.
-• Optimized Display interrupt latency
-• Optimized FOD under AoD
-• Updated touchscreen configuration firmware from MIUI12 20.5.14
-• Fixed bad idle drain due to s2idle
-• Merged LTS v4.14.183
-• Merged CAF tags LE.UM.3.3.2-08200-SDX55 and LA.UM.8.1.r1-15100-sm8150
-• Upstreamed F2fs to Jun 05, 2020
+• Based on CAF tag LE.UM.4.2.1.r1-02600-QCS404.0 updated to LE.UM.3.2.3-38400-SA2150p
+• Merged android-4.14-stable with working encryption
+• Optimized and Improved Memory Management and performance
+• Switched back to WALT
+• Improveed LOS FOD support
+• Optimized CPUidle for reduced power consuption
+• Merged LTS v4.14.184
+• Upstreamed F2fs to Jun 09, 2020
 ```
