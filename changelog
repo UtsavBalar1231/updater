@@ -4,23 +4,22 @@ Kernel: iMMENSITY AUTO
 Device: Redmi K20 Pro
 Compiler: ProtonClang 11.0.0
 Branch: auto-kernel
-HEAD: a7ecd11a95c42c83f41beb58cdf27348b073da46
-Version: 0.3.0
+HEAD: 40d37deaac6b82e202034e0da2f77bbdb61099f1
+Version: 0.4.0
 ```
 
 ## Changelog:
 ```
-• Upstreamed to LTS v4.14.186.
+• Upstreamed to LTS v4.14.187.
 • Compiled using protonclang with LLD linker, RELR relocations
 with FULL LTO and LLVM POLLY optimizations.
-• Backported display driver fixes from 4.19 CAF kernel.
-• Backported video driver optimizations and fixes from 4.19 CAF kernel.
-• Fixed and optimized FOD under AOD.
-• Fixed the UART wakelock bug causing abnormal deep sleep issues and even panics.
-• Optimized kernel performance by using pixel4 cpusets configuration and schedutil up/down rate limits.
-• Disabled Kernel LMKd.
-• Used powerefficient workqueues for speaker codec.
-• blocked userspace writing in kernel.
-• Added support for DC Dimming in OSSFOD.
-• Completely disabled PCIe and MHI support from kernel.
+• Updated WLAN drivers from LA.UM.8.13.r1-09000-SAIPAN.0
+• Updated rmNET performance drivers from LA.UM.8.13.r1-09000-SAIPAN.0
+• Optimized WLAN driver for latency sensetive updates.
+• Added a workaround for cold app launches
+• Switched to 250HZ timer frequency to improve performance in workload
+• Fixed a kernel panic due to stack overflow
+• Fixed a memory corruption from FOD code
+• Backported faster queued spinlock implementation from mainline
+• Backported atomic operation, read-write semaphore, and mutex optimizations from mainline
 ```
