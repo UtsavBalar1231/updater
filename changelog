@@ -1,25 +1,30 @@
 ## GENERAL INFORMATION
 ```
-Kernel: iMMENSITY AUTO
+Kernel: IMMENSiTY AUTO
 Device: Redmi K20 Pro
 Compiler: ProtonClang 11.0.0
 Branch: auto-kernel
-HEAD: 40d37deaac6b82e202034e0da2f77bbdb61099f1
-Version: 0.4.0
+HEAD: bb140d353a2f1a0933523df6e0b34aaf5a9f19c0
+Version: 0.5.0
 ```
 
 ## Changelog:
 ```
-• Upstreamed to LTS v4.14.187.
-• Compiled using protonclang with LLD linker, RELR relocations
-with FULL LTO and LLVM POLLY optimizations.
-• Updated WLAN drivers from LA.UM.8.13.r1-09000-SAIPAN.0
-• Updated rmNET performance drivers from LA.UM.8.13.r1-09000-SAIPAN.0
-• Optimized WLAN driver for latency sensetive updates.
-• Added a workaround for cold app launches
-• Switched to 250HZ timer frequency to improve performance in workload
-• Fixed a kernel panic due to stack overflow
-• Fixed a memory corruption from FOD code
-• Backported faster queued spinlock implementation from mainline
-• Backported atomic operation, read-write semaphore, and mutex optimizations from mainline
+• Merged CAF tags LE.UM.4.1.1-04510-sa515m and LA.AU.0.1.0.r1-04100-gen3meta.0
+• Merged Linux Term Stable v4.14.188
+• Merged jaeguek/f2fs-stable upto 9 july
+• Updated WireGuard VPN to 2020.07.12
+• Updated QCA CLD/CMN  WLAN drivers to Release 5.2.03.27R at tag LA.UM.8.11.1.r1-00300-QCM6125.0
+• Updated audio/data kernel modules from tag LA.UM.8.11.1.r1-00300-QCM6125.0
+• Fixed issues related to NETLINK and IPA_WS wakeup sources
+• Fixed a rare NULL pointer dereference
+• Switched to Simple LMK  as default Low Memory Killer
+• Re Calculated 66hz dsi timings and adjusted porches to limit the panel bandwidth
+• Moved top-app processing to Big Cluster CPUs
+• Import WALT optimizations from 4.19 qcom kernel
+• Implement a better KCAL color control support
+• Synced android binder with tag LU.UM.1.2.1.r1-09000-QRB5165.0
+• Lowered min lp frequency
+• Moved devfreq boost and simple lmk to performance critical threads
+• Implemented top-app feature for MIUI BOOST framework
 ```
