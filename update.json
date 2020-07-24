@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "IMMENSiTY AUTO",
-    "version": "0.5.0",
-    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-AUTO-RAPHAEL-LOSFOD-14.07.2020.zip",
+    "version": "0.6.0",
+    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-AUTO-RAPHAEL-LOSFOD-24.07.2020.zip",
     "changelog_url": "https://raw.githubusercontent.com/UtsavBalar1231/updater/master/changelog",
-    "date": "2020-07-14",
-    "sha1": "45cdcf811915b39bfd0d708a5094d671f728f2e8"
+    "date": "2020-07-24",
+    "sha1": "ba496684aa65cc85016c29eb3885d7c41f503cb2"
   },
   "support": {
     "link": "https://t.me/CuntsSpace"
