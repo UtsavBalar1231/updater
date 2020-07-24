@@ -2,29 +2,23 @@
 ```
 Kernel: IMMENSiTY AUTO
 Device: Redmi K20 Pro
-Compiler: ProtonClang 11.0.0
+Compiler: ProtonClang 12.0.0
 Branch: auto-kernel
-HEAD: bb140d353a2f1a0933523df6e0b34aaf5a9f19c0
-Version: 0.5.0
+HEAD: 9aad116e19e0ec6c41b413d7eef884f8f34333dd
+Version: 0.6.0
 ```
 
 ## Changelog:
 ```
-• Merged CAF tags LE.UM.4.1.1-04510-sa515m and LA.AU.0.1.0.r1-04100-gen3meta.0
-• Merged Linux Term Stable v4.14.188
-• Merged jaeguek/f2fs-stable upto 9 july
-• Updated WireGuard VPN to 2020.07.12
-• Updated QCA CLD/CMN  WLAN drivers to Release 5.2.03.27R at tag LA.UM.8.11.1.r1-00300-QCM6125.0
-• Updated audio/data kernel modules from tag LA.UM.8.11.1.r1-00300-QCM6125.0
-• Fixed issues related to NETLINK and IPA_WS wakeup sources
-• Fixed a rare NULL pointer dereference
-• Switched to Simple LMK  as default Low Memory Killer
-• Re Calculated 66hz dsi timings and adjusted porches to limit the panel bandwidth
-• Moved top-app processing to Big Cluster CPUs
-• Import WALT optimizations from 4.19 qcom kernel
-• Implement a better KCAL color control support
-• Synced android binder with tag LU.UM.1.2.1.r1-09000-QRB5165.0
-• Lowered min lp frequency
-• Moved devfreq boost and simple lmk to performance critical threads
-• Implemented top-app feature for MIUI BOOST framework
+• Merged CAF tags LE.UM.3.2.3-43600-SA2150p and LA.AU.0.1.0.r1-11000-gen3meta.0
+• Merged Linux Term Stable v4.14.189
+• Updated QCA CLD/CMN WLAN drivers to Release 5.2.03.28T
+• Updated data-kernel from tag LA.UM.8.13.r1-09200-SAIPAN.0
+• Fixed a bad performance regression since first auto release
+• Increased MinFreq of Little Cluster CPUs
+• Optimized PM QoS operations to improve CPU efficiency
+• Disabled Elliptic US proximity driver
+• fix a minor issue while loading speaker codec firmware
+• Improved thermal driver performance and reduced throttling
+• Mi9/cepheus: Optimized Touchscreen QoS latency
 ```
