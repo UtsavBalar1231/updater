@@ -2,7 +2,7 @@
   "kernel": {
     "name": "IMMENSiTY AUTO",
     "version": "0.7.0",
-    "link": "https://liquidtelecom.dl.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-AUTO-RAPHAEL-LOSFOD-31.07.2020.zip",
+    "link": "https://downloads.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-AUTO-RAPHAEL-LOSFOD-31.07.2020.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Funofficialbuilds%2Ffiles%2Fraphael%2Fkernel%2FiMMENSITY-AUTO-RAPHAEL-LOSFOD-31.07.2020.zip%2Fdownload&ts=1596180793&use_mirror=jaist",
     "changelog_url": "https://raw.githubusercontent.com/UtsavBalar1231/updater/master/changelog",
     "date": "2020-07-31",
     "sha1": "96dc5b50148795e15cb32fd8a76f1f0f39d780c4"
