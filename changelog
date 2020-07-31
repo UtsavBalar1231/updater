@@ -4,21 +4,28 @@ Kernel: IMMENSiTY AUTO
 Device: Redmi K20 Pro
 Compiler: ProtonClang 12.0.0
 Branch: auto-kernel
-HEAD: 9aad116e19e0ec6c41b413d7eef884f8f34333dd
-Version: 0.6.0
+HEAD: 9ce34fa078caa500d27fd002cdd49180384e05ea9
+Version: 0.7.0
 ```
 
 ## Changelog:
 ```
-• Merged CAF tags LE.UM.3.2.3-43600-SA2150p and LA.AU.0.1.0.r1-11000-gen3meta.0
-• Merged Linux Term Stable v4.14.189
-• Updated QCA CLD/CMN WLAN drivers to Release 5.2.03.28T
-• Updated data-kernel from tag LA.UM.8.13.r1-09200-SAIPAN.0
-• Fixed a bad performance regression since first auto release
-• Increased MinFreq of Little Cluster CPUs
-• Optimized PM QoS operations to improve CPU efficiency
-• Disabled Elliptic US proximity driver
-• fix a minor issue while loading speaker codec firmware
-• Improved thermal driver performance and reduced throttling
-• Mi9/cepheus: Optimized Touchscreen QoS latency
+• WLAN drivers updated to
+   Release 5.2.03.28V
+• WireGuard updated to
+   Release 1.0.20200729
+• F2fs updated to Release
+   Jul 29, 2020
+• Fixed a massive storage performance issue
+• Fixed a serial driver bug causing UART wakelock which used to prevent device
+   from entering suspend
+• Fixed an audio playback bug when headset's button wouldn't resume playback
+   after pausing in suspend
+• Fixed event notifier issue on cepheus which broke dt2w
+• Upstreamed to v4.14.190 android-4.14-stable
+• Optimized Scheduler for more efficient task placement and migration
+• Implemented Dynamic Schedtune Boosting for faster app launches
+• Disabled Higher min frequencies
+• Optimized vdso32 performance
+• Switch to PELT halflife to 32ms for better performance
 ```
