@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "IMMENSiTY AUTO",
-    "version": "0.7.0",
-    "link": "https://downloads.sourceforge.net/project/unofficialbuilds/raphael/kernel/iMMENSITY-AUTO-RAPHAEL-LOSFOD-31.07.2020.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Funofficialbuilds%2Ffiles%2Fraphael%2Fkernel%2FiMMENSITY-AUTO-RAPHAEL-LOSFOD-31.07.2020.zip%2Fdownload&ts=1596180793&use_mirror=jaist",
+    "version": "0.8.0",
+    "link": "https://github.com/UtsavBalar1231/kernel_xiaomi_raphael/files/5084920/iMMENSITY-AUTO-RAPHAEL-LOSFOD-17.08.2020.zip",
     "changelog_url": "https://raw.githubusercontent.com/UtsavBalar1231/updater/master/changelog",
-    "date": "2020-07-31",
-    "sha1": "96dc5b50148795e15cb32fd8a76f1f0f39d780c4"
+    "date": "2020-08-17",
+    "sha1": "121446987d2dda4394364a8fc77b0f6d880fd242"
   },
   "support": {
     "link": "https://t.me/CuntsSpace"
