@@ -4,26 +4,12 @@ Kernel: IMMENSiTY AUTO
 Device: Redmi K20 Pro
 Compiler: ProtonClang 12.0.0
 Branch: auto-kernel
-HEAD: de70e7d21df7869ca788cd0e1e9ee954f258ce76
-Version: 0.8.0
+HEAD: 362bcd6bb4965c01aa797e7f1059e5db1fb3d713
+Version: 0.8.1
 ```
 
 ## Changelog:
 ```
-• WLAN drivers updated to Release 5.2.03.29I
-• Merged LTS 4.14.193 from android-4.14-stable
-• Merged CAF tag LE.UM.4.2.3.r1-04700-QCS610.0
-• Selinux performance improvements from upstream
-• Switched to software debouncing based logic for PON keys
-• Added Workaround for miui like FOD behaviour
-• Extensive ION & IOMMU rewrite by kerneltoast for improved clarity and performance
-• Switched to mainline exFAT FS
-• Fixed icnss driver issue which was breaking suspend
-• Optimized power consuption in ulps
-• Added zstd decompression support
-• Switched zRAM compression algorithm to zstd
-• Re-enabled higher minimum frequencies
-• Balanced schedutil up/down rate limits
-• Switched back to 100hz timer frequency
-• Moved touchscreen processing to big cores
+• Fixed AOD Dimming issue
+• Fixed UI lags with DC dimming
 ```
